@@ -1,9 +1,13 @@
 <template>
-    <lightning-card title="HelloWorld" icon-name="custom:custom14">
+    <lightning-card title="Bespoke Logout - Ghost Component" icon-name="custom:custom15">
+      
       <div class="slds-m-around_medium">
-        <p>Hello, {greeting}!</p>
-        <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+        <p>
+          The body needs to be emptied for it to be a "Ghost Component" <br/>
+          Just drag and drop it for it to logout the user after 30 seconds of inactivity.<br/>
+          Don't forget to change the url of your org in the .js<br/>
+        </p>
       </div>
-      <lightning-button variant="brand" class="slds-button" data-id="Green_Button" label="Logout" onclick={logout}></lightning-button>
+
     </lightning-card>
   </template>
